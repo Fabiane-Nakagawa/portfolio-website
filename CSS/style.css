@@ -1,0 +1,80 @@
+body {
+  background-color: #D5DEF5;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #441758;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+
+}
+
+div {
+  padding: 10px; /* Adds a 10px inner spacing to all sides*/
+  margin: 10px; /* Adds a 10px outer spacing to all sides*/
+}
+
+a {
+  color: #6642B5;
+}
+
+a:visited {
+  color: #6642B5; /* visited link */
+}
+
+a:hover {
+  text-decoration: none; /* No underlining when hovering over a link */
+}
+
+a:active {
+  color: #6642B5; /* selected link */
+}
+
+
+button {
+  /* overwrite browser defaults */
+  border: none; /* reset the border */
+  font-family: inherit; /* takes the font from the outer container */
+
+  /* style button */
+  background-color: #6642B5;
+  color: white !important;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #6642B5; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+
+
+.button {
+  padding: 10px 18px;
+  color: white;
+  background-color: #7971ea;
+  text-decoration: none;
+  border-radius: 6px;
+  font-family: Helvetica, sans-serif;
+}
+
+
+.button:hover,
+.button:focus {
+  cursor: pointer; /* let's the mouse appear as hand when hovering over the button */
+  opacity: 0.8; /* Reduces the opactiy of the button to 80% */
+}

@@ -47,24 +47,9 @@ a:active {
 }
 
 
-button {
-  /* overwrite browser defaults */
-  border: none; /* reset the border */
-  font-family: inherit; /* takes the font from the outer container */
-
-  /* style button */
-  background-color: #6642B5;
-  color: white !important;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #6642B5; /* width of the border, type, color */
-  transition: 0.2s opacity;
-}
-
-
 .button {
   padding: 10px 18px;
+  font-size: 14px;
   color: white;
   background-color: #7971ea;
   text-decoration: none;

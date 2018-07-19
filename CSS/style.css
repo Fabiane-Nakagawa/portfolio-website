@@ -22,12 +22,6 @@ h2 {
 h3 {
   font-family: 'Merriweather', serif;
   font-size: 18px;
-
-}
-
-div {
-  padding: 10px; /* Adds a 10px inner spacing to all sides*/
-  margin: 10px; /* Adds a 10px outer spacing to all sides*/
 }
 
 a {
@@ -80,7 +74,7 @@ a:active {
 
 .column-4 {
   font-size: 16px;
-  width: 24%;
+  width: 23%;
   display: inline-block;
   margin-right: 1%;
   text-align: center;
@@ -113,6 +107,10 @@ margin-right: 0;
     font-size: 24px;
     text-align: left;
   }
+  .img {
+  width: 100%;
+  }
+
   .column-4 {
     /* Modify 4-column to 2-columns */
     width: 49%;

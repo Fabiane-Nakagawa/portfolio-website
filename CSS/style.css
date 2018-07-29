@@ -5,6 +5,7 @@ body {
   font-size: 18px;
   line-height: 1.6;
   color: #441758;
+
 }
 
 h1 {
@@ -22,6 +23,8 @@ h2 {
 h3 {
   font-family: 'Merriweather', serif;
   font-size: 18px;
+text-decoration: underline;
+
 }
 
 a {
@@ -164,4 +167,40 @@ margin-right: 0;
 
   .columns-container {
 white-space: nowrap;
+}
+
+@keyframes color-change {
+    0% {fill: #edc655;}
+    50% {fill: #fcffad;}
+    100% {fill: #f76414;}
+}
+
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move {
+    from {transform: translate(0,50px);}
+    to {transform: translate(200px,50px);}
+}
+
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move-reverse {
+    from {transform: translate(446px,48px);}
+    to {transform: translate(100px, 48px);}
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }

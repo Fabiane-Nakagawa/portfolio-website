@@ -1,10 +1,11 @@
 body {
-  background-color: #D5DEF5;
-
+  background-color: #FAF7F7;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   line-height: 1.6;
-  color: #441758;
+  color: #9348A3;
+  padding-top: 60px;
+
 
 }
 
@@ -31,8 +32,12 @@ a {
   color: #6642B5;
 }
 
+.nav-a {
+  color: white;
+}
+
 a:visited {
-  color: #6642B5; /* visited link */
+  color: white; /* visited link */
 }
 
 a:hover {
@@ -66,15 +71,15 @@ a:active {
 
 
 .wrapper {
-  width: 100%;
+  width: 90%;
   max-width: 1000px;
-  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
+  margin: 0;
 }
 
 .Introduction {
   border-style: hidden;
   padding: 100px;
-  margin: 0;
+  margin: 0 auto;
   top: 0;
   width: 1000%;
   letter-spacing: inherit;
@@ -85,8 +90,19 @@ a:active {
   padding: 100px;
   margin: 0;
   top: 0;
-  width: 1000%;
+  width: 100%;
   letter-spacing: inherit;
+  margin-right: 10px;
+  margin-left: 50px;
+  text-align: left;
+
+}
+
+.selfpic {
+  margin-right: 30px;
+  padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
 }
 
 .columns-container {
@@ -105,11 +121,6 @@ a:active {
 margin-right: 0;
 }
 
-.navigation {
-  list-style-type: none;
-  padding: 0;
-  float: right;
-}
 
 .navbar-inner {
   list-style-type: none;
@@ -120,21 +131,36 @@ margin-right: 0;
   width: 100%;
   padding: 0;
   float: right;
+
 }
 
 .nav_ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     position: fixed;
-    top: 0;
+    top: 10;
     width: 100%;
-    text-align: center;
+    text-align: right;
+    background: #9348A3;
+    max-height: 50px;
+    position: absolute;
+
+
 }
 
 .nav_ul > li {
   display:inline-block;
   margin-left: 10px;
+
+
+}
+
+.container img {
+    max-width:70px;
+    max-height:70px;
+    width: auto;
+    height: auto;
 }
 
 /*Responsive Web Pages with Media Queries*/
@@ -203,4 +229,7 @@ white-space: nowrap;
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-img { width: 100% }
+img {
+  width: 100%
+
+}

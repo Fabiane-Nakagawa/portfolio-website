@@ -24,7 +24,7 @@ h3 {
   font-family: 'Merriweather', serif;
   font-size: 18px;
 text-decoration: underline;
-
+text-align: center;
 }
 
 a {
@@ -132,7 +132,7 @@ margin-right: 0;
     text-align: center;
 }
 
-.navigation > li {
+.nav_ul > li {
   display:inline-block;
   margin-left: 10px;
 }
@@ -151,9 +151,7 @@ margin-right: 0;
     text-align: left;
   }
 
-  img {
-    width: 100%;
-  }
+
 
   .column-4 {
     /* Modify 4-column to 2-columns */
@@ -204,3 +202,5 @@ white-space: nowrap;
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+img { width: 100% }

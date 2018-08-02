@@ -75,12 +75,14 @@ a:active {
   width: 90%;
   max-width: 1000px;
   margin: 0;
+
 }
 
 .Introduction {
   border-style: hidden;
   padding: 100px;
-  margin: 0 auto;
+  margin-left: 400px;
+  margin-right: auto;
   top: 0;
   width: 1000%;
   letter-spacing: inherit;
@@ -116,6 +118,7 @@ a:active {
   width: 23%;
   display: inline-block;
   margin-right: 1%;
+align-items: center;
   text-align: center;
 }
 

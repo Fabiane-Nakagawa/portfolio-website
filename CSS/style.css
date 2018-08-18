@@ -5,6 +5,7 @@ body {
   line-height: 1.6;
   color: #9348A3;
   padding-top: 60px;
+  margin: 0;
 
 
 }
@@ -74,29 +75,25 @@ a:active {
 .wrapper {
   width: 90%;
   max-width: 1000px;
-  margin: 0;
+  margin: 0 auto;
 
 }
 
 .Introduction {
   border-style: hidden;
-  padding: 100px;
-  margin-left: 400px;
-  margin-right: auto;
+  padding-top: 40px;
   top: 0;
-  width: 1000%;
   letter-spacing: inherit;
+  text-align: center;
 }
 
 .Content1 {
   border-style: hidden;
-  padding: 100px;
+  padding: 40px 0;
   margin: 0;
   top: 0;
   width: 100%;
   letter-spacing: inherit;
-  margin-right: 50px;
-  margin-left: 50px;
   text-align: left;
 
 }
@@ -120,6 +117,8 @@ a:active {
   margin-right: 1%;
 align-items: center;
   text-align: center;
+  vertical-align: top
+
 }
 
 .column-4:last-child {
@@ -240,4 +239,10 @@ white-space: nowrap;
 
 img {
   width: 100%
+}
+
+.contact-links {
+  margin: 0 4px;
+  text-decoration: none;
+  color: #9348A3;
 }

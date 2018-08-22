@@ -246,3 +246,7 @@ img {
   text-decoration: none;
   color: #9348A3;
 }
+
+.project-details {
+  display: none;
+}
